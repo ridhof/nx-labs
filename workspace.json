@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "nx-fastify": "packages/nx-fastify",
+    "nx-fastify-e2e": "e2e/nx-fastify-e2e"
+  }
+}

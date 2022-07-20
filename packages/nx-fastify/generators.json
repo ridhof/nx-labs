@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "nx-fastify",
+  "version": "0.0.1",
+  "generators": {
+    "nx-fastify": {
+      "factory": "./src/generators/nx-fastify/generator",
+      "schema": "./src/generators/nx-fastify/schema.json",
+      "description": "nx-fastify generator"
+    }
+  }
+}
